@@ -5,12 +5,11 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: fdrudi <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/02/12 10:53:52 by mcerchi           #+#    #+#             */
-/*   Updated: 2022/02/26 14:35:09 by fdrudi           ###   ########.fr       */
+/*   Created: 2022/02/26 14:41:59 by fdrudi            #+#    #+#             */
+/*   Updated: 2022/02/26 14:42:03 by fdrudi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
 #include "./libft/libft.h"
 #include "push_swap.h"
 

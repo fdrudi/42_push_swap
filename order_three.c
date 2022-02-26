@@ -5,22 +5,13 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: fdrudi <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/02/22 12:54:06 by fdrudi            #+#    #+#             */
-/*   Updated: 2022/02/26 14:34:59 by fdrudi           ###   ########.fr       */
+/*   Created: 2022/02/26 14:42:28 by fdrudi            #+#    #+#             */
+/*   Updated: 2022/02/26 14:42:31 by fdrudi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "./libft/libft.h"
 #include "push_swap.h"
-
-/*
-* contatori nelle prox 2 funzioni:
-*	#0:	max
-*	#1:	min
-*	#2:	pos_max
-*	#3:	pos_min
-*	#4:	pos
-*/
 
 int	return_max_or_min(int cont, int *max_n_min, int size)
 {

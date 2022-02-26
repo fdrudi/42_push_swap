@@ -5,8 +5,8 @@
 #                                                     +:+ +:+         +:+      #
 #    By: fdrudi <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2022/01/19 11:52:05 by mcerchi           #+#    #+#              #
-#    Updated: 2022/02/26 12:42:43 by fdrudi           ###   ########.fr        #
+#    Created: 2022/02/26 14:49:41 by fdrudi            #+#    #+#              #
+#    Updated: 2022/02/26 14:49:59 by fdrudi           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -18,11 +18,10 @@ SRCS		=	ft_atoi.c ft_bzero.c ft_calloc.c ft_isalnum.c ft_isalpha.c\
   				ft_striteri.c ft_strjoin.c ft_strlcat.c ft_strlcpy.c\
 				ft_strlen.c ft_strmapi.c ft_strncmp.c ft_strnstr.c\
 				ft_strtrim.c ft_substr.c ft_tolower.c ft_toupper.c\
-				ft_display_exit.c\
 				ft_lstadd_back.c ft_lstadd_front.c ft_lstclear.c\
 				ft_lstdelone.c ft_lstiter.c ft_lstlast.c\
 				ft_lstnew.c ft_lstsize.c ft_lstmap.c ft_strcmp.c\
-				ft_get_next_line.c\
+				ft_get_next_line.c ft_display_exit.c\
 
 OBJS		= ${SRCS:.c=.o}
 

@@ -5,13 +5,12 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: fdrudi <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/02/26 11:30:34 by fdrudi            #+#    #+#             */
-/*   Updated: 2022/02/26 14:35:05 by fdrudi           ###   ########.fr       */
+/*   Created: 2022/02/26 14:43:20 by fdrudi            #+#    #+#             */
+/*   Updated: 2022/02/26 14:43:21 by fdrudi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "./libft/libft.h"
-#include <stdio.h>
 
 int	*ft_lis_util_helper(int max)
 {

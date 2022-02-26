@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strtrim.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mcerchi <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: fdrudi <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/01/19 11:50:59 by mcerchi           #+#    #+#             */
-/*   Updated: 2022/01/21 12:24:33 by mcerchi          ###   ########.fr       */
+/*   Created: 2022/02/26 14:49:05 by fdrudi            #+#    #+#             */
+/*   Updated: 2022/02/26 14:49:07 by fdrudi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ static int	first_char(const char *s1, const char *set)
 	len = ft_strlen(s1);
 	i = 0;
 	while (i < len)
-	{	
+	{
 		if (ft_strchr(set, s1[i]) == 0)
 			break ;
 		i++;

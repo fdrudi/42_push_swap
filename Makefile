@@ -5,8 +5,8 @@
 #                                                     +:+ +:+         +:+      #
 #    By: fdrudi <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2022/02/13 16:37:50 by fdrudi            #+#    #+#              #
-#    Updated: 2022/02/26 14:35:06 by fdrudi           ###   ########.fr        #
+#    Created: 2022/02/26 14:43:07 by fdrudi            #+#    #+#              #
+#    Updated: 2022/02/26 14:46:58 by fdrudi           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -47,7 +47,7 @@ fclean: 	clean
 			make fclean -C libft
 			${RM} $(NAME) $(NAME_BONUS) ${OBJ} $(OBJ_BONUS)
 
-re:			fclean $(NAME) $(NAME_BONUS)
+re:			fclean bonus
 
 bonus:		all $(OBJ_BONUS)
 			$(CC) $(CFLAGS) -o $(NAME_BONUS) $(OBJ_BONUS) $(LIBFT)
